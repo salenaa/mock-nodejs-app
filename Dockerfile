@@ -14,5 +14,6 @@ RUN npm install
 
 COPY *.js /usr/src/app/simplewebapp-nodejs
 
+EXPOSE 8081
 #Default command
 CMD ["npm","start"]
