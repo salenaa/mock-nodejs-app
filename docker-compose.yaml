@@ -1,0 +1,8 @@
+version: '3'
+services: 
+  nodejs-app:
+    image: salenaket/nodejs-app
+    build: .
+    restart: always
+    ports: 
+      - "8081:8081"
